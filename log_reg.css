@@ -1,0 +1,28 @@
+/* RESET */
+
+ 
+* {
+  /* Padding and borders will be subtracted from the content box width, not added to it. */
+  box-sizing: border-box;
+}
+
+article, aside, audio, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section { 
+  /* Make sure the browser knows how to display HTML5 elements */
+  display: block;
+}
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+#logRegWrapper
+{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+form
+{
+  display: block;
+  text-align: center;
+}

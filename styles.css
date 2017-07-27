@@ -1,0 +1,90 @@
+/* RESET */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  /* Cancel out some differences between browser defaults */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+ 
+* {
+  /* Padding and borders will be subtracted from the content box width, not added to it. */
+  box-sizing: border-box;
+}
+
+article, aside, audio, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section { 
+  /* Make sure the browser knows how to display HTML5 elements */
+  display: block;
+}
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+#wrapper
+{
+	display: flex;
+}
+
+.gameImg 
+{
+	width: 60%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    heigth: 150px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+h1
+{
+	font-size: 3em;
+	padding: 5px;
+}
+
+body 
+{
+	font-family: 'Open Sans', arial;
+    width: 75em;
+	height: 100vh;
+    margin: 0 auto;
+}
+
+footer {
+    width: 75em;
+    height: 2em;
+	bottom: 0;
+    background-color: pink;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+	position: relative;
+}
+
+.chat
+{
+	margin-right: 0px;
+	width: 30em;
+}
+
+.chatlogs
+{
+	background-color: green;
+    height: 23em;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.chatForm
+{
+	background-color: yellow;
+	padding: 20px;
+	height: 7em;
+}
